@@ -1,0 +1,378 @@
+
+    .titulo1 {
+
+        display: flex;
+        justify-content: center;
+        background-image: linear-gradient(315deg, #378b29 0%, #74d680 74%);
+        width:100%;
+        height:auto;
+
+
+    }
+
+
+
+    .nav {
+        display: block;
+        height:auto;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+
+    }
+
+    nav ul {
+
+        list-style: none;
+        overflow: hidden;
+        background-image: linear-gradient(315deg, #378b29 0%, #74d680 74%);
+
+    }
+
+    nav ul li {
+
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+        color: #378b29;
+
+    }
+
+    nav ul li:hover {
+        background: rgb(47, 214, 47);
+
+    }
+
+    .historiaEspacio {
+        color: #378b29;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: justify;
+        grid-area: historiaEspacio;
+    }
+
+    .historia {
+        color: #378b29;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: justify;
+        width: 700px;
+        grid-area: historia;
+    }
+
+    .estadio {
+        color: #378b29;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: justify;
+        grid-area: estadio;
+    }
+
+    .colores {
+        color: #378b29;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: justify;
+        grid-area: colores;
+    }
+
+    .padreClub {
+        display: grid;
+        gap: 0px;
+        column-gap: 20px;
+        margin: 0%;
+        height: 100%;
+        text-align: justify;
+        grid-template-columns: 750px 500px;
+        grid-template-rows: 420px;
+        grid-template-areas:
+            "historia colores"
+            "estadio colores"
+
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+    }
+
+    ul li {
+        width: 10%;
+    }
+
+    .rrss {
+        color: #378b29;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding-left: 60px;
+        width: 400px;
+        height: 900px;
+        text-align: justify center;
+        grid-area: rrss;
+
+    }
+
+
+
+    ul figure {
+        list-style: none;
+        margin-left: auto;
+        color: #378b29;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin: 10px;
+        text-align: center;
+
+
+    }
+
+    ul li figure {
+        padding: 0%;
+        position: relative;
+        right: -50px;
+
+    }
+
+    ul li figure:hover figcaption {
+        display: block;
+
+    }
+
+    figcaption {
+        display: none;
+        position: absolute;
+
+
+    }
+
+    .padreIndex {
+        display: grid;
+        gap: 0px;
+        column-gap: 30px;
+        margin: 20px;
+        height: 100%;
+        grid-template-columns: 750px 600px;
+        grid-template-rows: 550px;
+        grid-template-areas:
+            "historiaEspacio rrss"
+
+
+
+
+        ;
+
+    }
+
+
+    .contacto {
+        color: #378b29;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: justify;
+    }
+
+
+
+    .padreFutbol {
+        display: grid;
+        gap: 0px;
+        column-gap: 30px;
+        margin: 20px;
+        height: 100%;
+        grid-template-columns: 700px 500px;
+        grid-template-rows: 220px;
+        grid-template-areas:
+            "encuentrosMasc encuentrosFem"
+
+        ;
+
+    }
+
+    .encuentrosMasc {
+        color: #378b29;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: justify;
+        grid-area: encuentrosMasc;
+
+    }
+
+    h1 {
+        color: #378b29;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: justify;
+
+    }
+
+    .encuentrosFem {
+        color: #378b29;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: justify;
+        grid-area: encuentrosFem;
+
+    }
+
+    .encuentrosMasc li {
+        list-style: none;
+    }
+
+    .encuentrosFem li {
+        list-style: none;
+    }
+
+
+
+    .foro {
+        color: #378b29;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: justify;
+
+    }
+
+    .padreFemenino {
+        display: grid;
+        color: #378b29;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        gap: 0px;
+        column-gap: 30px;
+        margin: 20px;
+        height: 100%;
+        grid-template-columns: 700px 500px;
+        grid-template-rows: 220px;
+        grid-template-areas:
+            "futbolfem tablaposfem"
+        ;
+    }
+
+    .tablaPosFem {
+        color: #378b29;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: justify;
+        grid-area: tablaposfem;
+    }
+
+    .futbolFem {
+        color: #378b29;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: justify;
+        grid-area: futbolfem;
+    }
+
+    .padreMasculino {
+        display: grid;
+        color: #378b29;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        gap: 0px;
+        column-gap: 30px;
+        margin: 20px;
+        height: 100%;
+        grid-template-columns: 700px 500px;
+        grid-template-rows: 220px;
+        grid-template-areas:
+            "futbolMasc tablaPosMasc"
+        ;
+    }
+
+    .tablaPosMasc {
+        color: #378b29;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: justify;
+        grid-area: tablaPosMasc;
+    }
+
+    .futbolMasc {
+        color: #378b29;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: justify;
+        grid-area: futbolMasc;
+    }
+
+
+    .columnas {
+        color: #378b29;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        display: grid;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        gap: 0px;
+        column-gap: 30px;
+        margin: 0px;
+        height: 100%;
+        grid-template-columns: 600px 600px;
+        grid-template-rows: 1180px;
+        grid-template-areas:
+            "columnasMasc opinionColum"
+            "jugadas opinionColum"
+        ;
+
+
+    }
+
+    h3 {
+        color: #378b29;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .columnasMasc {
+        color: #378b29;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: justify;
+        grid-area: columnasMasc;
+
+    }
+
+    .opinionColum {
+        color: #1b2719;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: justify;
+        grid-area: opinionColum;
+        background-image: linear-gradient(315deg, #378b29 0%, #74d680 74%);
+        height: 1500px;
+        width: 643px;
+        margin-top: -60px;
+        border-style: double;
+    }
+
+    .jugadas {
+        color: #378b29;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: justify;
+        grid-area: jugadas;
+    }
+    .buscar{
+        text-align: left;
+        border-style:ridge;
+        
+    }
+
+    
+
+    .entrevistaPa{
+        
+        grid-area: entrevistaPa;
+    }
+    .entrevistaMa{
+        grid-area: entrevistaMa;
+    }
+    .entrevistaAr{
+        grid-area: entrevistaAr;
+    }
+
+   
+    .entrevistasMasc {
+        display: grid;
+        gap: 0px;
+        background-image: url("../img/Captura.png");
+        background-repeat: no-repeat;
+        background-position: center;
+       background-color: #94f184;
+        column-gap: 30px;
+        margin: 0px;
+        height: 100%;
+        grid-template-columns: 700px 500px;
+        grid-template-rows: 350px;
+        grid-template-areas:
+        "entrevistaPa  entrevistaMa"
+        "entrevistaAr entrevistaMa"
+        
+
+        ;
+    }
